@@ -1,1 +1,118 @@
-[{"question": "When was the last time you added a meaningful comment?", "answer": "I'll get right back to you"}] 
+[
+  {
+    "id": "Q1",
+    "topic": "Continuous Integration",
+    "question": "What is the primary goal of Continuous Integration?",
+    "options": [
+      "Automatically deploy to production",
+      "Frequently integrate code changes into a shared repository",
+      "Eliminate the need for testing",
+      "Remove the need for branches"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Integration aims to detect integration issues early by merging code frequently."
+  },
+  {
+    "id": "Q2",
+    "topic": "The DevOps Culture",
+    "question": "Which of these is a core value of DevOps culture?",
+    "options": [
+      "Siloed departments",
+      "Shared responsibility",
+      "Blame-heavy environment",
+      "Manual processes only"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps emphasizes breaking down silos and sharing responsibility between Dev and Ops."
+  },
+  {
+    "id": "Q3",
+    "topic": "Infrastructure as Code",
+    "question": "What is the main benefit of Infrastructure as Code (IaC)?",
+    "options": [
+      "Consistency and repeatability",
+      "Manual server configuration",
+      "Deleting all backups",
+      "Faster hardware manufacturing"
+    ],
+    "answerIndex": 0,
+    "explanation": "IaC allows environments to be provisioned consistently using configuration files."
+  },
+  {
+    "id": "Q4",
+    "topic": "Continuous Delivery",
+    "question": "In Continuous Delivery, what is true about the deployment to production?",
+    "options": [
+      "It happens automatically without human intervention",
+      "It is a manual decision after passing automated tests",
+      "It should only happen once a year",
+      "It bypasses the staging environment"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Delivery ensures code is *ready* for production, but the final release is a manual trigger."
+  },
+  {
+    "id": "Q5",
+    "topic": "Version Control Systems",
+    "question": "Which Git command is used to combine changes from one branch into another?",
+    "options": [
+      "git push",
+      "git merge",
+      "git status",
+      "git add"
+    ],
+    "answerIndex": 1,
+    "explanation": "The 'merge' command integrates history from one branch into your current branch."
+  },
+  {
+    "id": "Q6",
+    "topic": "The DevOps Culture",
+    "question": "What does the 'C' in the CALMS framework stand for?",
+    "options": [
+      "Code",
+      "Culture",
+      "Computation",
+      "Continuous"
+    ],
+    "answerIndex": 1,
+    "explanation": "CALMS stands for Culture, Automation, Lean, Measurement, and Sharing."
+  },
+  {
+    "id": "Q7",
+    "topic": "Continuous Integration",
+    "question": "Which tool is commonly used as a CI/CD server?",
+    "options": [
+      "Jenkins",
+      "Photoshop",
+      "Excel",
+      "Slack"
+    ],
+    "answerIndex": 0,
+    "explanation": "Jenkins is an open-source automation server commonly used for CI/CD pipelines."
+  },
+  {
+    "id": "Q8",
+    "topic": "Infrastructure as Code",
+    "question": "Which of these is a popular IaC tool?",
+    "options": [
+      "Terraform",
+      "Spotify",
+      "Visual Studio Code",
+      "Chrome"
+    ],
+    "answerIndex": 0,
+    "explanation": "Terraform is a widely used tool for building, changing, and versioning infrastructure safely."
+  },
+  {
+    "id": "Q9",
+    "topic": "Continuous Deployment",
+    "question": "How does Continuous Deployment differ from Continuous Delivery?",
+    "options": [
+      "It requires more manual testing",
+      "Changes are automatically deployed to production after passing tests",
+      "It only applies to mobile apps",
+      "It is slower than Continuous Delivery"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Deployment automates the final step of releasing to production with no manual trigger."
+  }]
