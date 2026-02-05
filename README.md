@@ -23,3 +23,5 @@
     answerIndex: 0-based integer (0, 1, 2, or 3) pointing to the correct answer.
 
     explanation: A short text providing context for the correct answer.
+    ## Features
+* Comprehensive bank of 20 DevOps questions.
