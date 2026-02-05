@@ -115,4 +115,147 @@
     ],
     "answerIndex": 1,
     "explanation": "Continuous Deployment automates the final step of releasing to production with no manual trigger."
+  },
+  {
+    "id": "Q10",
+    "topic": "Plan with DevOps",
+    "question": "What is the purpose of a 'Retrospective' in DevOps planning?",
+    "options": [
+      "To assign blame for failures",
+      "To reflect on the past sprint and identify improvements",
+      "To write the first line of code",
+      "To ignore customer feedback"
+    ],
+    "answerIndex": 1,
+    "explanation": "Retrospectives focus on continuous improvement by analyzing what went well and what didn't."
+  },
+  {
+    "id": "Q11",
+    "topic": "Version Control Systems",
+    "question": "What is a 'Pull Request'?",
+    "options": [
+      "A way to tell others about changes you pushed to a branch",
+      "A command to delete a repository",
+      "A request for more hardware",
+      "A type of security firewall"
+    ],
+    "answerIndex": 0,
+    "explanation": "A Pull Request (PR) allows developers to review and discuss changes before merging them."
+  },
+  {
+    "id": "Q12",
+    "topic": "Continuous Integration",
+    "question": "What is a 'Build' in the context of CI?",
+    "options": [
+      "Constructing a physical office",
+      "Compiling code and running automated tests",
+      "Designing a logo",
+      "Hiring new developers"
+    ],
+    "answerIndex": 1,
+    "explanation": "A build is the process of converting source code into a functional artifact and verifying it."
+  },
+  {
+    "id": "Q13",
+    "topic": "Infrastructure as Code",
+    "question": "What does 'Idempotency' mean in IaC?",
+    "options": [
+      "The code runs differently every time",
+      "Applying the same operation multiple times yields the same result",
+      "The infrastructure is always deleted after use",
+      "The code only works on one specific server"
+    ],
+    "answerIndex": 1,
+    "explanation": "Idempotency ensures that running the same script repeatedly doesn't change the outcome if the state is already correct."
+  },
+  {
+    "id": "Q14",
+    "topic": "The DevOps Culture",
+    "question": "What is 'Shift Left' testing?",
+    "options": [
+      "Moving testing to the end of the cycle",
+      "Moving testing earlier in the development process",
+      "Testing only on the left side of the screen",
+      "Skipping testing entirely"
+    ],
+    "answerIndex": 1,
+    "explanation": "Shifting left means integrating security and testing earlier in the SDLC."
+  },
+  {
+    "id": "Q15",
+    "topic": "Version Control Systems",
+    "question": "Which of these is a distributed version control system?",
+    "options": [
+      "Git",
+      "SVN",
+      "CVS",
+      "FTP"
+    ],
+    "answerIndex": 0,
+    "explanation": "Git is a distributed VCS, meaning every developer has a full copy of the repository history."
+  },
+  {
+    "id": "Q16",
+    "topic": "Continuous Delivery",
+    "question": "What is a 'Deployment Pipeline'?",
+    "options": [
+      "A physical pipe for data",
+      "An automated manifestation of the process for getting software from control to release",
+      "A list of employees",
+      "A backup server"
+    ],
+    "answerIndex": 1,
+    "explanation": "A pipeline automates the stages of build, test, and deployment."
+  },
+  {
+    "id": "Q17",
+    "topic": "Plan with DevOps",
+    "question": "What is a 'User Story'?",
+    "options": [
+      "A long novel about software",
+      "An informal, general explanation of a software feature from the perspective of the end user",
+      "A bug report",
+      "A list of hardware requirements"
+    ],
+    "answerIndex": 1,
+    "explanation": "User stories help teams focus on delivering value to the customer."
+  },
+  {
+    "id": "Q18",
+    "topic": "Infrastructure as Code",
+    "question": "What is 'Configuration Drift'?",
+    "options": [
+      "When servers move locations",
+      "When the actual environment state becomes different from the defined IaC state",
+      "A feature of high-speed networking",
+      "When a project is finished early"
+    ],
+    "answerIndex": 1,
+    "explanation": "Drift occurs when manual changes are made to servers, making them inconsistent with the code."
+  },
+  {
+    "id": "Q19",
+    "topic": "The DevOps Culture",
+    "question": "What is a 'Blame-Free Post-Mortem'?",
+    "options": [
+      "Finding the person who broke the code and firing them",
+      "Analyzing a failure to learn from it without pointing fingers",
+      "Ignoring the failure entirely",
+      "Deleting the logs so no one knows what happened"
+    ],
+    "answerIndex": 1,
+    "explanation": "Blame-free cultures focus on systemic improvements rather than individual punishment."
+  },
+  {
+    "id": "Q20",
+    "topic": "Continuous Integration",
+    "question": "Which practice is essential for effective CI?",
+    "options": [
+      "Infrequent commits",
+      "Large, complex branches",
+      "Automated testing",
+      "Manual code reviews only"
+    ],
+    "answerIndex": 2,
+    "explanation": "Automated testing is crucial to verify that new code doesn't break the existing build."
   }]
