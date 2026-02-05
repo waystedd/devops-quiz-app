@@ -1,1 +1,9 @@
- 
+body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; display: flex; justify-content: center; padding: 40px; }
+.container { background: white; padding: 30px; border-radius: 12px; width: 100%; max-width: 500px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+.hidden { display: none; }
+button { width: 100%; padding: 12px; margin: 8px 0; cursor: pointer; border: 1px solid #ccc; border-radius: 6px; background: white; transition: 0.2s; }
+button:hover { background: #e9ecef; }
+#start-btn { background: #28a745; color: white; border: none; font-weight: bold; }
+#next-btn { background: #007bff; color: white; border: none; }
+.correct { color: #28a745; font-weight: bold; }
+.wrong { color: #dc3545; font-weight: bold; }
