@@ -24,4 +24,8 @@
 
     explanation: A short text providing context for the correct answer.
     ## Features
+<<<<<<< HEAD
 * Comprehensive bank of 20 DevOps questions.
+=======
+* Interactive Quiz UI with real-time feedback.
+>>>>>>> eeb7181889881878e4dc30e2f6d02e563aab5a8a
